@@ -16,7 +16,7 @@ You need to modify the path of the image in every ".txt" in "./data".
 
 ## Training on one dataset:
 
-You can run "./scripts/train.sh" to train and evaluate on the task. Before that, you need to change the project root, dataset (Office-Home or Office-31) ,data address and gpu id in the script.
+You can run "./scripts/train.sh" to train and evaluate on the task. Before that, you need to change the project root, dataset (Office-Home or Office-31), data address and CUDA_VISIBLE_DEVICES in the script.
 
 ## Citation:
 
