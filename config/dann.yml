@@ -1,0 +1,13 @@
+init_lr: 0.004
+optim:
+  type: sgd
+  params:
+      lr: 0.004
+      momentum: 0.9
+      weight_decay: 0.0005
+      nesterov: True
+
+lr_scheduler:
+  type: inv
+  gamma: 0.001
+  decay_rate: 0.75
